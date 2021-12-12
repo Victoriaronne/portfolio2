@@ -31,7 +31,6 @@
 }
 
 .single-picture-box p{
-    padding-left: 30%;
     padding-top: 2%;
     font-family: 'Noto Serif Display', serif;
     background-color: #F8F0EA;
@@ -49,7 +48,10 @@
 
 .single-picture-box{
     width: 75%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .default-pic-size{
@@ -80,12 +82,6 @@
     background-color: #89A0BD;
     margin-top: -0.4%;
 }
-
-/* .w-100 {
-    background-color: #E1D6CE;
-    width: 50% !important;
-    height: 50%;
-} */
 
 .portfolio{
     background-color: #E1D6CE;
@@ -149,17 +145,12 @@ footer{
     .default-pic-size{
         padding: 5%;
        text-align: center;
-       margin-left: 25%; ;
     
     }
 
     .single-picture-box{
         margin: 1%;
     }
-
-.single-picture-box p{
-    margin-left: 25%;
-}
 
     .assignment{
         text-align: center;
