@@ -1,0 +1,61 @@
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F0EA;
+}
+
+.menu{
+    margin: 0px;
+    background-color: #F8F0EA;
+   background-color: #89A0BD;
+   height: 3px;
+
+}
+
+.header{
+    background-color: #F8F0EA;
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+}
+
+.header hr{
+    width: 3%;
+    margin-top: -0.5%;
+    background-color: #89A0BD;
+}
+
+.background p{
+    padding-top: 2%;
+    font-family: 'Noto Serif Display', serif;
+}
+
+.pictures{
+    padding-top: 5%;
+    display: column;
+    flex-wrap: wrap;
+  
+}
+
+.picture1{
+    width: 50%;
+    height: 50%;
+}
+
+.picture2{
+    width: 50%;
+    height: 50%;
+}
+
+footer{
+    background-color:#F8F0EA ;
+    font-family: 'Noto Serif Display', serif;
+    padding-bottom: 1%;
+    
+}
+
+@media screen and (max-width: 976px) {
+    .nav-link img{
+        width: 50%;
+        height: 50%;
+        }
+    }

@@ -1,0 +1,137 @@
+*{
+    background-color: #F8F0EA;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F0EA;
+}
+
+.menu{
+    margin: 0px;
+    background-color: #F8F0EA;
+   background-color: #89A0BD;
+   height: 3px;
+
+}
+
+.header{
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+    padding-top: 30px;
+    background-color: #F8F0EA;
+}
+
+.header hr{
+    width: 5%;
+    background-color: #89A0BD;
+    margin-top: -0.4%;
+}
+
+/* .text{
+    background-color: #F8F0EA;
+   padding-left: 28%;
+   font-family: 'Noto Serif Display', serif;
+   margin-top: 3%;
+
+   
+} */
+
+.button1{
+    display: flex;
+    padding-left: 5%;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    padding-top:10%; 
+     
+}
+.button2{
+    display: flex;
+    padding-left: 7%;
+    padding-right: 5%;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+.button3{
+    display: flex;
+    padding-left: 5%;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    
+}
+
+.container{
+    background-color: #F8F0EA;
+    font-size: 160%;
+    
+    
+}
+
+.container button{
+    background-color: #89A0BD;
+    border-radius: 20px;
+    font-size: 120%;
+    border-color: #707070;
+    font-family: 'Noto Serif Display', serif;
+    
+    
+}
+
+footer{
+    font-family: 'Noto Serif Display', serif;
+    padding-bottom: 16%;
+    background-color: #F8F0EA;
+    
+}
+
+span{
+background-color:#89A0BD;
+}
+
+@media screen and (max-width: 976px) {
+    .nav-link img{
+        width: 50%;
+        height: 50%;
+        }
+.text{
+    padding-right: 30%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.button11{
+ padding-bottom: 10%;
+}
+
+.button12{
+    padding-bottom: -10%;
+}
+
+.button21{
+    padding-bottom: 10%;
+}
+
+.button22{
+    padding-bottom: -10%;
+}
+
+.button31{
+    padding-bottom: 10%;
+}
+
+.button2{
+    flex-direction: column;
+}
+
+.button3{
+    flex-direction: column;
+    align-content: space-around;
+}
+
+}
